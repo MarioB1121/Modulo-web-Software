@@ -1,0 +1,104 @@
+/* login pagina */
+
+.Login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5;
+}
+
+
+.Login-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+
+.Login-container h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+
+.Login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.Login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.Login-container button:hover {
+    background-color: #45a049;
+}
+
+
+/* index pagina */
+body {
+    background: #f0f2f5;
+    font-family: 'Arial';
+    padding: 20px;
+    text-align: center;
+}
+
+
+.text-top h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-top p {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 40px auto; 
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.card h2 {
+    color: #090909;
+}
+
