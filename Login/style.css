@@ -1,6 +1,6 @@
 /* login pagina */
 
-.Login-page{
+.login-page,.createUsser-page{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
 }
 
 
-.Login-container {
+.login-container, .createUsser-container {
     background: #fff;
     padding: 40px;
     border-radius: 20px;
@@ -18,13 +18,13 @@
 }
 
 
-.Login-container h1 {
+.login-container h1, .createUsser-container h1{
     margin-bottom: 30px;
     color: #333;
 }
 
 
-.Login-container input {
+.login-container input, .createUsser-container input {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
@@ -33,7 +33,7 @@
 }
 
 
-.Login-container button {
+.login-container button, .createUsser-container button{
     width: 100%;
     padding: 12px;
     background-color: #4CAF50;
@@ -45,7 +45,7 @@
     
 }
 
-.Login-container button:hover {
+.login-container button:hover, .createUsser-container button:hover{
     background-color: #45a049;
 }
 
@@ -101,4 +101,30 @@ body {
 .card h2 {
     color: #090909;
 }
+
+/* crear usuario */
+
+a{
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 8px;
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #4CAF50;
+}
+
+label {
+    text-align: left;
+    display: block;
+}
+
+.text-top{
+    margin-bottom: 30px;  
+}
+
+
 
