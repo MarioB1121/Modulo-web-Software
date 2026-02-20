@@ -1,19 +1,22 @@
 <head>
-    <title>Iniciar Sesion</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="login-page">
-    <div class="Login-container">
+    <div class="login-container">
         <h1>Login</h1>
-            <label class="form-label">Usuario</label><br/>
-            <input type="text" name="username" placeholder="Username" required>
-            <label class="form-label">Contraseña</label><br/>
-            <input type="password" name="password" placeholder="Password" required>
-            <button onclick="location.href='index.html'">Login</button>
-            <a href="createUsser.html">Crear usuario</a>
-        </form>
+
+        <label class="form-label">Username</label><br/>
+        <input type="text" id="username" placeholder="Enter username" required>
+
+        <label class="form-label">Password</label><br/>
+        <input type="password" id="password" placeholder="Enter password" required>
+
+        <button type="button" onclick="login()">Login</button>
+        <a href="createUser.html">Create Account</a>
+
     </div>
+
+    <script src="login.js"></script>
 </body>
-
-
