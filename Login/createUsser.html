@@ -1,24 +1,19 @@
 <head>
-    <title>Crear usuario</title>
+    <title>Create Account</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="createUsser-page">
-    <div class="createUsser-container">
-        <h1>Crear Usuario</h1>
-            <label class="form-label">Usuario</label><br/>
-            <input type="text" name="usuario" placeholder="Usuario" required>
+<body class="createUser-page">
+    <div class="createUser-container">
+        <h1>Create Account</h1>
 
-            <label class="form-label">Correo</label><br/>
-            <input type="text" name="correo" placeholder="Correo" required>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
 
-            <label class="form-label">Contraseña</label><br/>
-            <input type="password" name="contraseña" placeholder="Contraseña" required>
-
-            <label class="form-label">Confirmar Contraseña</label><br/>
-            <input type="password" name="confirmar contraseña" placeholder="Confirmar contraseña" required>
-            
-            <button onclick="location.href='index.html'">Login</button>
-        </form>
+        <button type="button" onclick="register()">Create Account</button>
     </div>
+
+    <script src="register.js"></script>
 </body>
