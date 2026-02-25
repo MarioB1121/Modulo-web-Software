@@ -16,9 +16,13 @@ function login() {
         users.some(u => u.username === username && u.password === password);
 
     if (ok) {
+
+        const token = "token_" + Date.now();
+        localStorage.setItem("authToken", token);
+
+        localStorage.setItem("currentUser", username)
+
         alert("Login exitoso");
         window.location.href = "./index.html";
-    } else {
-        alert("Usuario o contraseña incorrectos");
     }
 }
