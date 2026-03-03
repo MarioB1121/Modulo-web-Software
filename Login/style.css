@@ -126,5 +126,20 @@ label {
     margin-bottom: 30px;  
 }
 
+.poke-card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
 
+.poke-card img {
+  width: 180px;
+  height: 180px;
+}
 
+.poke-card h1 {
+  margin-top: 15px;
+  text-transform: capitalize;
+}

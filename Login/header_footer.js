@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a href="historia.html">Historia</a>
                 <a href="fender.html">Comparativa</a>
                 <a href="login.html">Login</a>
+                <a href="pokemon.html">Pokemon</a>
             </nav>
         </header>
     `;
