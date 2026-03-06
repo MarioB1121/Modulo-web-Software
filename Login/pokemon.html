@@ -1,10 +1,19 @@
+
 <body>
+    
+    <div class="filtros">
+        <input type="text" id="filtroNombre" placeholder="Buscar por nombre">
+        <input type="number" id="filtroId" placeholder="Buscar por ID">
+        <input type="text" id="filtroTipo" placeholder="Buscar por tipo">
+        <button onclick="filtrarPokemons()">Filtrar</button>
+        <button onclick="mostrarTodos()">Mostrar todos</button>
+    </div>
+
     <div class="container">
-        <div class="poke-card">
-        <img id="pokeImg" alt="pokemon" />
-        <h1 id="pokeName"></h1>
-        </div>
+        <div id="pokemonContainer" class="pokemon-grid"></div>
     </div>
 
     <script src="pokemon.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
 </body>
