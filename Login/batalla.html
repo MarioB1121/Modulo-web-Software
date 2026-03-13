@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalla Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="site-header"></div>
+
+    <h1>Batalla Pokémon</h1>
+
+    <div class="filtros">
+        <input type="text" id="pokemon1Input" placeholder="Pokémon 1">
+        <button onclick="cargarPokemon(1)">Cargar Pokémon 1</button>
+
+        <input type="text" id="pokemon2Input" placeholder="Pokémon 2">
+        <button onclick="cargarPokemon(2)">Cargar Pokémon 2</button>
+
+        <button onclick="iniciarBatalla()">Iniciar batalla</button>
+    </div>
+
+    <div class="battle-container">
+        <div id="card1" class="poke-card battle-card">
+        <h2>Pokémon 1</h2>
+    </div>
+
+        <div id="card2" class="poke-card battle-card">
+            <h2>Pokémon 2</h2>
+        </div>
+    </div>
+
+    <div class="battle-status">
+        <div>
+        <h3 id="name1">Pokémon 1</h3>
+        <div class="life-bar">
+            <div id="life1" class="life-fill">100%</div>
+        </div>
+    </div>
+
+    <div>
+        <h3 id="name2">Pokémon 2</h3>
+        <div class="life-bar">
+            <div id="life2" class="life-fill">100%</div>
+        </div>
+        </div>
+    </div>
+
+    <div class="log-box">
+        <h2>Registro de batalla</h2>
+        <div id="battleLog"></div>
+    </div>
+
+    <div id="winnerBox" class="winner-box" style="display:none;">
+        <h2>GANADOR</h2>
+        <img id="winnerImg" src="" alt="Ganador">
+        <h3 id="winnerName"></h3>
+    </div>
+
+
+    <div id="site-footer"></div>
+
+    <script src="batalla.js"></script>
+    <script src="header_footer.js"></script>
+
+    <script src="auth.js"></script>
+
+</body>
+</html>

@@ -212,3 +212,82 @@ label {
 .steel{ background:#B8B8D0; color:black; }
 .psychic{ background:#F85888; }
 .fighting{ background:#C03028; }
+
+
+/* batalla pokemon*/
+.battle-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.battle-card {
+    width: 300px;
+    min-height: 250px;
+}
+
+.battle-status {
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.life-bar {
+    width: 300px;
+    height: 28px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.life-fill {
+    height: 100%;
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    transition: width 0.4s ease;
+}
+
+.log-box {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#battleLog {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.log-entry {
+    background: #f3f4f6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.winner-box {
+    background: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.winner-box img {
+    width: 180px;
+}

@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a href="fender.html">Comparativa</a>
                 <a href="login.html">Login</a>
                 <a href="pokemon.html">Pokemon</a>
+                <a href="batalla.html">Batalla Pokemon</a>
             </nav>
         </header>
     `;
